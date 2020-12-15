@@ -51,4 +51,6 @@ True
 ```
 
 
+## Invitation
 
+You are welcome to improve and suggest improvements to bitman.

@@ -21,21 +21,28 @@ The array of bits is a class called bitman.
 ### Initializing a bitman instance
 
 ```python
->>> from bitman import bitman  		# import the bitman class
->>> a = bitman(size=5,init=1)  		# 'a' is now a bitman instance with 5 bits, all initialized to 1
->>> print(a)				# printing 'a' returns the string of bits as in a binary number
+>>> from bitman import bitman  	# import the bitman class
+>>> a = bitman(size=5,init=1)  	# 'a' is now a bitman instance with 5 bits, all initialized to 1
+>>> print(a)			# printing 'a' returns the string of bits as in a binary number
 11111
->>> a					# simply typing 'a' at the command line also returns the bits in the same order
+>>> a				# simply typing 'a' at the command line also returns the bits in the same order
 11111
->>> a.get(2)				# get the truth value of the bit at position 2
+>>> a.get(2)			# get the truth value of the bit at position 2
 True
->>> a.set(0, 0)				# set the bit at position 0 to 0.
+>>> a.set(0, 0)			# set the bit at position 0 to 0.
 >>> a
 11110
->>> a.set(2, 0)				# set the bit at position 2 to 0.
+>>> a.set(2, 0)			# set the bit at position 2 to 0.
 >>> a
 11010
-
+>>> a.get(2)			# the second bit has been set to False
+False
+>>> a.get(3)			# the third bit is still True
+True
+>>> a.which(0)			# list of bits in a that are 0 
+[0, 2]
+>>> a.which(1)			# list of bits in a that are 1
+[1, 3, 4]
 ```
 
 

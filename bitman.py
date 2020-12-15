@@ -42,7 +42,7 @@ class bitman:
         '''
         ans = []
         for i in range(self.size):
-                if self.get(i)==1:
+                if self.get(i)==val:
                     ans.append(i)
         return ans
 

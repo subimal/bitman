@@ -53,4 +53,4 @@ True
 
 ## Invitation
 
-You are welcome to improve and suggest improvements to bitman.
+You are welcome to improve bitman and suggest improvements.

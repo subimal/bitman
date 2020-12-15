@@ -43,6 +43,13 @@ True
 [0, 2]
 >>> a.which(1)			# list of bits in a that are 1
 [1, 3, 4]
+>>> a.size			# how many bits are to be represented by a?
+5
+>>> a
+11010
+>>> a.size=8			# let us resize the array
+>>> a
+00011010
 ```
 
 

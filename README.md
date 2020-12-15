@@ -15,6 +15,14 @@ The array of bits is a class called bitman.
 * **get(n)**:	A function that returns the truth value of the n-th bit.
 * **which(val)**: A list of positions with a value val (0 or 1).
 
+## Installation
+Please check https://pypi.org/project/bitman/ for the installable version.
+
+You should be able to install with 
+```
+pip install bitman
+```
+
 
 ## A quick tutorial
 

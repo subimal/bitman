@@ -21,8 +21,14 @@ The array of bits is a class called bitman.
 ### Initializing a bitman instance
 
 ```python
-from bitman import bitman
-a = bitman(size=5,init=1)
+>>> from bitman import bitman
+>>> a = bitman(size=5,init=1)
+>>> print(a)
+```
+
+```
+>>> print(a)
+11111
 ```
 
 

@@ -16,9 +16,7 @@ The array of bits is a class called bitman.
 * **which(val)**: A list of positions with a value val (0 or 1).
 
 
-## Examples
-
-### Initializing a bitman instance
+## A quick tutorial
 
 ```python
 >>> from bitman import bitman  	# import the bitman class

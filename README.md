@@ -1,7 +1,7 @@
 # bitman
 
 ## What is bitman?
-This is a pure python module for MANaging an array of BITs. 
+This is a pure python module for managing and manipulating an array of bits. 
 
 ## How does it work?
 bitman takes advantage of python's ability to handle big integers. The array of bits is simply an integer with its bit values set as desired. 

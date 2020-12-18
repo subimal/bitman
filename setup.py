@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="bitman", # Replace with your own username
-    version="1.0.2",
+    version="1.0.3",
     author="Subimal Deb",
     author_email="subimal.deb@gmail.com",
     description="A purepython bit manager",
